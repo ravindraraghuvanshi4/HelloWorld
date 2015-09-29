@@ -12,6 +12,7 @@
     <tstamp/>
     <!-- Create the build directory structure used by compile -->
     <mkdir dir="${build}"/>
+	<antcall target="compile" />
   </target>
 
   <target name="compile" depends="init"
