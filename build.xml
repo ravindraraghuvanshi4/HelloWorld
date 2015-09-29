@@ -15,7 +15,7 @@
 	<antcall target="compile" />
   </target>
 
-  <target name="compile" depends="init"
+  <target name="compile" 
         description="compile the source">
     <!-- Compile the java code from ${src} into ${build} -->
     <javac srcdir="${src}" destdir="${build}"/>
